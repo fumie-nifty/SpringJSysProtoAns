@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataset>
+	<customer customercode="KA0001" customername="Aストア" customertelno="045-128-3581" customerpostalcode="220-0001" customeraddress="横浜市西区北幸２－１" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0002" customername="Bストア" customertelno="045-128-3582" customerpostalcode="220-0002" customeraddress="横浜市西区浅間２－２" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0003" customername="Cストア" customertelno="045-128-3583" customerpostalcode="220-0003" customeraddress="横浜市西区みなとみらい２－１" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0004" customername="Dストア" customertelno="045-128-3584" customerpostalcode="220-0004" customeraddress="横浜市西区南幸１－４" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0005" customername="Eストア" customertelno="045-128-3585" customerpostalcode="220-0005" customeraddress="横浜市西区北幸２－５" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0006" customername="Fストア" customertelno="045-128-3586" customerpostalcode="220-0006" customeraddress="横浜市西区北幸２－６" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0007" customername="Gストア" customertelno="045-128-3587" customerpostalcode="220-0007" customeraddress="横浜市西区高島１－１" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0008" customername="Hストア" customertelno="045-128-3588" customerpostalcode="220-0008" customeraddress="横浜市西区高島１－２" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0009" customername="Iストア" customertelno="045-128-3589" customerpostalcode="220-0009" customeraddress="横浜市西区高島２－３" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0010" customername="Jストア" customertelno="045-150-3590" customerpostalcode="220-0010" customeraddress="横浜市西区高島２－４" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0011" customername="Kストア" customertelno="045-150-3591" customerpostalcode="220-0011" customeraddress="横浜市西区みなとみらい２－１" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0012" customername="Lストア" customertelno="045-150-3592" customerpostalcode="220-0012" customeraddress="横浜市西区みなとみらい２－２" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0013" customername="Mストア" customertelno="045-150-3593" customerpostalcode="220-0013" customeraddress="横浜市西区みなとみらい２－３" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0014" customername="Nストア" customertelno="045-150-3594" customerpostalcode="220-0014" customeraddress="横浜市西区みなとみらい２－４" discountrate="0" deleteflag="0"/>
+	<customer customercode="KA0015" customername="Oストア" customertelno="045-150-3595" customerpostalcode="220-0015" customeraddress="横浜市西区みなとみらい２－５" discountrate="0" deleteflag="0"/>
+	<customernumbering customercode="15"/>
+	<employee employeeno="H20001" employeename="安藤直也" password="zy0001"/>
+	<employee employeeno="H20002" employeename="加西春美" password="yx0002"/>
+	<employee employeeno="H20003" employeename="坂口雅也" password="xw0003"/>
+	<employee employeeno="H20004" employeename="田中泰" password="wv0004"/>
+	<item itemcode="AX0001" itemname="ミネラルウォーター（500ml）" price="80" stock="99975"/>
+	<item itemcode="AX0002" itemname="ミネラルウォーター（2ｌ）" price="100" stock="100000"/>
+	<item itemcode="AX0003" itemname="ミネラルウォーター（業務用）" price="1000" stock="100000"/>
+	<item itemcode="AX0004" itemname="ミネラルウォーター(500ml)x12本" price="500" stock="100000"/>
+	<item itemcode="AX0005" itemname="ミネラルウォーター(2ｌ)x12本" price="1200" stock="100000"/>
+	<item itemcode="AX0006" itemname="海洋深層水（500ml）" price="80" stock="100000"/>
+	<item itemcode="AX0007" itemname="海洋深層水（2ｌ）" price="100" stock="100000"/>
+	<item itemcode="AX0008" itemname="海洋深層水（業務用）" price="1000" stock="100000"/>
+	<item itemcode="AX0009" itemname="海洋深層水(500ml)x12本" price="500" stock="100000"/>
+	<item itemcode="AX0010" itemname="海洋深層水(2ｌ)x12本" price="1200" stock="100000"/>
+	<item itemcode="BX0001" itemname="黄金にんにく・10日分" price="1200" stock="99970"/>
+	<item itemcode="BX0002" itemname="黄金にんにく・30日分" price="3000" stock="99990"/>
+	<item itemcode="BX0003" itemname="黄金にんに・ 90日分" price="8000" stock="100000"/>
+	<item itemcode="BX0004" itemname="無臭にんにく・10日分" price="1000" stock="100000"/>
+	<item itemcode="BX0005" itemname="無臭にんにく・30日分" price="2800" stock="99990"/>
+	<item itemcode="BX0006" itemname="無臭にんにく・90日分" price="7400" stock="100000"/>
+	<item itemcode="BX0007" itemname="健康黒ゴマ・10日分" price="500" stock="100000"/>
+	<item itemcode="BX0008" itemname="健康黒ゴマ・30日分" price="1300" stock="99990"/>
+	<item itemcode="BX0009" itemname="健康黒ゴマ・90日分" price="3500" stock="100000"/>
+	<item itemcode="BX0010" itemname="黒ゴマセサミン・10日分" price="600" stock="100000"/>
+	<item itemcode="BX0011" itemname="黒ゴマセサミン・30日分" price="1500" stock="99990"/>
+	<item itemcode="BX0012" itemname="黒ゴマセサミン・90日分" price="4000" stock="100000"/>
+	<item itemcode="CX0001" itemname="食べる納豆キナーゼ・10日分" price="600" stock="99980"/>
+	<item itemcode="CX0002" itemname="食べる納豆キナーゼ・30日分" price="1600" stock="100000"/>
+	<item itemcode="CX0003" itemname="食べる納豆キナーゼ・90日分" price="4500" stock="100000"/>
+	<item itemcode="DX0001" itemname="雑穀プラス・10食分" price="500" stock="100000"/>
+	<item itemcode="DX0002" itemname="雑穀プラス・30食分" price="1300" stock="100000"/>
+	<item itemcode="DX0003" itemname="雑穀プラス・90食分" price="3500" stock="100000"/>
+	<item itemcode="DX0004" itemname="五穀米・10食分" price="1000" stock="100000"/>
+	<item itemcode="DX0005" itemname="五穀米・30食分" price="2800" stock="100000"/>
+	<item itemcode="DX0006" itemname="五穀米・90食分" price="8500" stock="100000"/>
+	<item itemcode="DX0007" itemname="十穀米・10食分" price="1200" stock="100000"/>
+	<item itemcode="DX0008" itemname="十穀米・30食分" price="3400" stock="100000"/>
+	<item itemcode="DX0009" itemname="十穀米・90食分" price="9500" stock="100000"/>
+	<item itemcode="DX0010" itemname="健康発芽玄米・10食分" price="1000" stock="100000"/>
+	<item itemcode="DX0011" itemname="健康発芽玄米・30食分" price="2800" stock="100000"/>
+	<item itemcode="DX0012" itemname="健康発芽玄米・90食分" price="8500" stock="100000"/>
+	<item itemcode="DX0013" itemname="健康黒酢（200ml）" price="350" stock="100000"/>
+	<item itemcode="DX0014" itemname="健康黒酢（1ｌ）" price="900" stock="100000"/>
+	<item itemcode="DX0015" itemname="健康黒酢（200ml）x12本" price="3500" stock="100000"/>
+	<item itemcode="DX0016" itemname="健康黒酢（1ｌ）x12本" price="9000" stock="100000"/>
+	<item itemcode="EX0001" itemname="乳酸菌飲料ジョイ・6本パック" price="280" stock="100000"/>
+	<item itemcode="EX0002" itemname="乳酸菌飲料ジョイ・12本パック" price="500" stock="100000"/>
+	<item itemcode="EX0003" itemname="乳酸菌プラス・24袋パック" price="2200" stock="100000"/>
+	<item itemcode="EX0004" itemname="乳酸菌プラス・36袋パック" price="3000" stock="100000"/>
+	<item itemcode="EX0005" itemname="乳酸菌プラス・36袋パック" price="5000" stock="100000"/>
+	<item itemcode="EX0006" itemname="健康青汁・24袋パック" price="2200" stock="100000"/>
+	<item itemcode="EX0007" itemname="健康青汁・36袋パック" price="3000" stock="100000"/>
+	<item itemcode="EX0008" itemname="健康青汁・60袋パック" price="5000" stock="100000"/>
+	<item itemcode="FX0001" itemname="マルチビタミン&amp;ミネラル・10日分" price="1200" stock="99990"/>
+	<item itemcode="FX0002" itemname="マルチビタミン&amp;ミネラル・30日分" price="3500" stock="100000"/>
+	<item itemcode="FX0003" itemname="マルチビタミン&amp;ミネラル・120日分" price="12000" stock="100000"/>
+	<item itemcode="FX0004" itemname="マルチビタミンforMen・10日分" price="1200" stock="100000"/>
+	<item itemcode="FX0005" itemname="マルチビタミンforMen・30日分" price="3500" stock="100000"/>
+	<item itemcode="FX0006" itemname="マルチビタミンforMen・120日分" price="12000" stock="100000"/>
+	<item itemcode="FX0007" itemname="マルチビタミンforWomen・10日分" price="1200" stock="100000"/>
+	<item itemcode="FX0008" itemname="マルチビタミンforWomen・30日分" price="3500" stock="100000"/>
+	<item itemcode="FX0009" itemname="マルチビタミンforWomen・120日分" price="12000" stock="100000"/>
+	<item itemcode="FX0010" itemname="ビタミン13・10日分" price="1000" stock="100000"/>
+	<item itemcode="FX0011" itemname="ビタミン13・30日分" price="3500" stock="100000"/>
+	<item itemcode="FX0012" itemname="ビタミン13・120日分" price="10000" stock="100000"/>
+	<item itemcode="FX0013" itemname="ビタミンBB・10日分" price="900" stock="100000"/>
+	<item itemcode="FX0014" itemname="ビタミンBB・30日分" price="2500" stock="100000"/>
+	<item itemcode="FX0015" itemname="ビタミンBB・120日分" price="9000" stock="100000"/>
+	<item itemcode="FX0016" itemname="ビタミンC・10日分" price="800" stock="100000"/>
+	<item itemcode="FX0017" itemname="ビタミンC・30日分" price="2200" stock="100000"/>
+	<item itemcode="FX0018" itemname="ビタミンC・120日分" price="8000" stock="100000"/>
+	<item itemcode="FX0019" itemname="天然ビタミンＥ・10日分" price="900" stock="100000"/>
+	<item itemcode="FX0020" itemname="天然ビタミンＥ・30日分" price="2500" stock="100000"/>
+	<item itemcode="FX0021" itemname="天然ビタミンＥ・120日分" price="9000" stock="100000"/>
+	<item itemcode="FX0022" itemname="紫蘇・10日分" price="300" stock="100000"/>
+	<item itemcode="FX0023" itemname="紫蘇・30日分" price="800" stock="100000"/>
+	<item itemcode="FX0024" itemname="紫蘇・120日分" price="3000" stock="100000"/>
+	<item itemcode="FX0025" itemname="天然アミノ・10日分" price="350" stock="100000"/>
+	<item itemcode="FX0026" itemname="天然アミノ・30日分" price="1200" stock="100000"/>
+	<item itemcode="FX0027" itemname="天然アミノ・120日分" price="4000" stock="100000"/>
+	<item itemcode="FX0028" itemname="甜茶･10日分" price="300" stock="100000"/>
+	<item itemcode="FX0029" itemname="甜茶･30日分" price="800" stock="100000"/>
+	<item itemcode="FX0030" itemname="甜茶･120日分" price="3000" stock="100000"/>
+	<item itemcode="FX0031" itemname="天然田七人参・10日分" price="300" stock="100000"/>
+	<item itemcode="FX0032" itemname="天然田七人参・30日分" price="800" stock="100000"/>
+	<item itemcode="FX0033" itemname="天然田七人参・30日分" price="3000" stock="100000"/>
+	<item itemcode="GX0001" itemname="健康十穀の粥・1食" price="120" stock="99990"/>
+	<item itemcode="GX0002" itemname="健康十穀の粥・10食パック" price="1000" stock="100000"/>
+	<item itemcode="GX0003" itemname="健康十穀の粥・30食パック" price="2800" stock="100000"/>
+	<item itemcode="GX0004" itemname="健康十穀の粥・90食パック" price="8000" stock="99990"/>
+	<item itemcode="GX0005" itemname="健康十穀の粥(カレー)・1食" price="120" stock="99990"/>
+	<item itemcode="GX0006" itemname="健康十穀の粥(カレー）・10食パック" price="1000" stock="100000"/>
+	<item itemcode="GX0007" itemname="健康十穀の粥(カレー)・30食パック" price="2800" stock="100000"/>
+	<item itemcode="GX0008" itemname="健康十穀の粥(カレー)・90食パック" price="8000" stock="99990"/>
+	<item itemcode="HX0001" itemname="健康低反発まくらS" price="12000" stock="100000"/>
+	<item itemcode="HX0002" itemname="健康低反発まくらM" price="12500" stock="100000"/>
+	<item itemcode="HX0003" itemname="健康低反発まくらL" price="13000" stock="100000"/>
+	<item itemcode="IX0001" itemname="健康オーダーまくらS" price="17000" stock="100000"/>
+	<item itemcode="IX0002" itemname="健康オーダーまくらM" price="17500" stock="100000"/>
+	<item itemcode="IX0003" itemname="健康オーダーまくらL" price="18000" stock="100000"/>
+	<item itemcode="JX0001" itemname="男性用育毛トニック" price="6500" stock="99990"/>
+	<item itemcode="JX0002" itemname="女性用育毛トニック" price="6500" stock="99990"/>
+	<item itemcode="JX0003" itemname="育毛シャンプー" price="2000" stock="99990"/>
+	<item itemcode="JX0004" itemname="育毛コンディショナー" price="2200" stock="99990"/>
+	<orders orderno="1" customercode="KA0001" employeeno="H20001" totalprice="800" detailnum="1" deliverdate="2021-11-10" orderdate="2021-11-9"/>
+	<orders orderno="2" customercode="KA0015" employeeno="H20002" totalprice="12000" detailnum="1" deliverdate="2021-12-8" orderdate="2021-12-7"/>
+	<orders orderno="3" customercode="KA0015" employeeno="H20001" totalprice="6000" detailnum="1" deliverdate="2021-12-1" orderdate="2021-12-1"/>
+	<orders orderno="4" customercode="KA0001" employeeno="H20003" totalprice="13200" detailnum="2" deliverdate="2021-12-10" orderdate="2021-12-9"/>
+	<orders orderno="5" customercode="KA0014" employeeno="H20001" totalprice="172000" detailnum="4" deliverdate="2022-1-5" orderdate="2022-1-5"/>
+	<orders orderno="6" customercode="KA0003" employeeno="H20003" totalprice="86000" detailnum="4" deliverdate="2022-2-10" orderdate="2022-2-10"/>
+	<orders orderno="7" customercode="KA0001" employeeno="H20001" totalprice="18000" detailnum="2" deliverdate="2022-2-15" orderdate="2022-2-15"/>
+	<orders orderno="8" customercode="KA0003" employeeno="H20002" totalprice="174400" detailnum="5" deliverdate="2022-3-20" orderdate="2022-3-20"/>
+	<orderdetails orderno="1" itemcode="AX0001" ordernum="10" orderprice="800"/>
+	<orderdetails orderno="2" itemcode="BX0001" ordernum="10" orderprice="12000"/>
+	<orderdetails orderno="3" itemcode="CX0001" ordernum="10" orderprice="6000"/>
+	<orderdetails orderno="4" itemcode="AX0001" ordernum="15" orderprice="1200"/>
+	<orderdetails orderno="4" itemcode="BX0001" ordernum="10" orderprice="12000"/>
+	<orderdetails orderno="5" itemcode="JX0001" ordernum="10" orderprice="65000"/>
+	<orderdetails orderno="5" itemcode="JX0002" ordernum="10" orderprice="65000"/>
+	<orderdetails orderno="5" itemcode="JX0003" ordernum="10" orderprice="20000"/>
+	<orderdetails orderno="5" itemcode="JX0004" ordernum="10" orderprice="22000"/>
+	<orderdetails orderno="6" itemcode="BX0002" ordernum="10" orderprice="30000"/>
+	<orderdetails orderno="6" itemcode="BX0005" ordernum="10" orderprice="28000"/>
+	<orderdetails orderno="6" itemcode="BX0008" ordernum="10" orderprice="13000"/>
+	<orderdetails orderno="6" itemcode="BX0011" ordernum="10" orderprice="15000"/>
+	<orderdetails orderno="7" itemcode="BX0001" ordernum="10" orderprice="12000"/>
+	<orderdetails orderno="7" itemcode="CX0001" ordernum="10" orderprice="6000"/>
+	<orderdetails orderno="8" itemcode="FX0001" ordernum="10" orderprice="12000"/>
+	<orderdetails orderno="8" itemcode="GX0001" ordernum="10" orderprice="1200"/>
+	<orderdetails orderno="8" itemcode="GX0004" ordernum="10" orderprice="80000"/>
+	<orderdetails orderno="8" itemcode="GX0005" ordernum="10" orderprice="1200"/>
+	<orderdetails orderno="8" itemcode="GX0008" ordernum="10" orderprice="80000"/>
+</dataset>

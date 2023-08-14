@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+<title>得意先検索画面</title>
+</head>
+
+<body>
+	<!-- 見出し -->
+	<!-- メインコンテンツ -->
+	<main>
+		<p class="gotoMenu"><a th:href="@{/}">メニューへ戻る</a></p>
+		<h2>得意先検索</h2>
+		<form 	th:object="${searchCustomerForm}" method="post"
+					action="#" th:action="@{/searchCustomer}">
+			<table>
+				<tr>
+					<td>得意先コード</td>
+					<td>
+						<input type="text" th:field="*{customerCode}"  maxLength="6" size="10">
+						<div 	th:if="${#fields.hasErrors('customerCode')}"
+								th:errors="*{customerCode}" class="errorMessage" style="text-align: left;">validation massage</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<button type="submit">検索</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<!-- エラーメッセージ -->
+		<div class="errorMessage" th:text="${message}"  style="text-align: center; color: red">
+			エラーメッセージ
+		</div>
+	</main>
+</body>
+</html>

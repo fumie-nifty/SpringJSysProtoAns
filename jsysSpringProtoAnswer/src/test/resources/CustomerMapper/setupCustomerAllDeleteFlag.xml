@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataset>
+	<customer customercode="KA0001" customername="Aストア" customertelno="045-128-3581" customerpostalcode="220-0001" customeraddress="横浜市西区北幸２－１" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0002" customername="Bストア" customertelno="045-128-3582" customerpostalcode="220-0002" customeraddress="横浜市西区浅間２－２" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0003" customername="Cストア" customertelno="045-128-3583" customerpostalcode="220-0003" customeraddress="横浜市西区みなとみらい２－１" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0004" customername="Dストア" customertelno="045-128-3584" customerpostalcode="220-0004" customeraddress="横浜市西区南幸１－４" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0005" customername="Eストア" customertelno="045-128-3585" customerpostalcode="220-0005" customeraddress="横浜市西区北幸２－５" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0006" customername="Fストア" customertelno="045-128-3586" customerpostalcode="220-0006" customeraddress="横浜市西区北幸２－６" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0007" customername="Gストア" customertelno="045-128-3587" customerpostalcode="220-0007" customeraddress="横浜市西区高島１－１" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0008" customername="Hストア" customertelno="045-128-3588" customerpostalcode="220-0008" customeraddress="横浜市西区高島１－２" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0009" customername="Iストア" customertelno="045-128-3589" customerpostalcode="220-0009" customeraddress="横浜市西区高島２－３" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0010" customername="Jストア" customertelno="045-150-3590" customerpostalcode="220-0010" customeraddress="横浜市西区高島２－４" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0011" customername="Kストア" customertelno="045-150-3591" customerpostalcode="220-0011" customeraddress="横浜市西区みなとみらい２－１" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0012" customername="Lストア" customertelno="045-150-3592" customerpostalcode="220-0012" customeraddress="横浜市西区みなとみらい２－２" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0013" customername="Mストア" customertelno="045-150-3593" customerpostalcode="220-0013" customeraddress="横浜市西区みなとみらい２－３" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0014" customername="Nストア" customertelno="045-150-3594" customerpostalcode="220-0014" customeraddress="横浜市西区みなとみらい２－４" discountrate="0" deleteflag="1"/>
+	<customer customercode="KA0015" customername="Oストア" customertelno="045-150-3595" customerpostalcode="220-0015" customeraddress="横浜市西区みなとみらい２－５" discountrate="0" deleteflag="1"/>
+</dataset>

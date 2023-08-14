@@ -1,0 +1,135 @@
+@CHARSET "UTF-8";
+
+/*全体共通　要素ごとのスタイル定義*/
+body {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 0px;
+	font-family: "Hiragino Kaku Gothic ProN", "meiryo";
+	font-size: 12pt;
+	text-align: center;
+}
+
+input {
+	font-size: 12pt;
+}
+
+
+button {
+	width: 120px;
+	height: 30px;
+	font-size: 12pt;
+	font-weight: bold;
+	background-color: #8aec8a;
+	border-radius: 5px;
+	border-color: #8aec8a;
+	border-style: none;
+}
+
+
+img {
+	border-style: none;
+	border: 0;
+	width: 130px;
+	height: 130px;
+}
+
+/*エラーメッセージ*/
+#error {
+	text-align: left;
+	color: red
+}
+
+.errorMessage{
+	font-size: 9pt;
+	text-align: left;
+	color: red
+}
+
+/*ヘッダー*/
+header{
+	padding-bottom: 5px;
+	border-bottom: 3px solid #008040;
+}
+
+header .logoutBtn{
+	text-align: right;
+	margin-top: -40px;
+}
+
+header h1 {
+	font-size: 16pt;
+	text-align: left;
+}
+
+/*フッター*/
+footer {
+	margin-top: 30px;
+	border-top: 1px solid #008000;
+	text-align: left;
+	font-size: 8pt;
+}
+
+/*メインコンテンツ*/
+main {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.menu{
+	text-align: center;
+}
+.menu button{
+	width: 200px;
+	height: 40px;
+}
+
+.gotoMenu{
+	text-align: right;
+}
+
+main .errorMessage{
+	padding-top: 5px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+main h2 {
+	font-size: 18pt;
+	color:#0000ff;
+	text-align: center;
+}
+
+main table {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+main table th,main table td{
+	white-space:nowrap;
+}
+
+main table th{
+	text-align: center;
+}
+
+main caption {
+	text-align: left;
+	font-size: 13pt;
+	font-weight: bold;
+}
+
+main th {
+	background-color: #d0f9d3;
+	padding: 10px;
+}
+
+main td {
+	padding: 10px;
+	position: relative;
+}
+

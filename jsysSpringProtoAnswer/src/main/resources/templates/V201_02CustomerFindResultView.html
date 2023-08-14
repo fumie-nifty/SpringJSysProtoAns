@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ja">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+<title>得意先検索結果画面</title>
+</head>
+<body>
+	<!-- 見出し -->
+	<!-- メインコンテンツ -->
+	<main>
+		<p class="gotoMenu"><a th:href="@{/}">メニューへ戻る</a></p>
+		<h2>得意先検索結果</h2>
+		<table border="1">
+			<tr>
+				<td width="100">得意先コード</td>
+				<td width="300" th:text="${customer.customerCode}">customerCode</td>
+			</tr>
+			<tr>
+				<td>得意先名</td>
+				<td th:text="${customer.customerName}">customerName</td>
+			</tr>
+			<tr>
+				<td>電話番号</td>
+				<td th:text="${customer.customerTelno}">customerTelno</td>
+			</tr>
+			<tr>
+				<td>郵便番号</td>
+				<td th:text="${customer.customerPostalcode}">customerPostalcode</td>
+			</tr>
+			<tr>
+				<td>住所</td>
+				<td th:text="${customer.customerAddress}">customerAddress</td>
+			</tr>
+			<tr>
+				<td>割引率</td>
+				<td><span th:text="${customer.discountRate}">discountRate</span>%</td>
+			</tr>
+		</table>
+		<br>
+		<form action="#" th:action="@{/goSearchCustomer}" method="GET">
+			<div style="text-align: center">
+				<button type="submit">前画面へ戻る</button>
+			</div>
+		</form>
+	</main>
+</body>
+</html>

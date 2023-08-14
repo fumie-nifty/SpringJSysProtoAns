@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="dataset">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="customer" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute type="xs:string" name="customercode"/>
+            <xs:attribute type="xs:string" name="customername"/>
+            <xs:attribute type="xs:string" name="customertelno"/>
+            <xs:attribute type="xs:string" name="customerpostalcode"/>
+            <xs:attribute type="xs:string" name="customeraddress"/>
+            <xs:attribute type="xs:integer" name="discountrate"/>
+            <xs:attribute type="xs:string" name="deleteflag"/>
+          </xs:complexType>
+        </xs:element>
+		<xs:element name="customernumbering" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute type="xs:string" name="customercode"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="employee" maxOccurs="unbounded">
+          <xs:complexType>
+                <xs:attribute type="xs:string" name="employeeno"/>
+                <xs:attribute type="xs:string" name="employeename"/>
+                <xs:attribute type="xs:string" name="password"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="item" maxOccurs="unbounded">
+          <xs:complexType>
+                <xs:attribute type="xs:string" name="itemcode"/>
+                <xs:attribute type="xs:string" name="itemname"/>
+                <xs:attribute type="xs:integer" name="price"/>
+                <xs:attribute type="xs:integer" name="stock"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="orders" maxOccurs="unbounded">
+          <xs:complexType>
+                <xs:attribute type="xs:string" name="orderno"/>
+                <xs:attribute type="xs:string" name="customercode"/>
+                <xs:attribute type="xs:string" name="employeeno"/>
+                <xs:attribute type="xs:integer" name="totalprice"/>
+                <xs:attribute type="xs:integer" name="detailnum"/>
+                <xs:attribute type="xs:string" name="deliverdate"/>
+                <xs:attribute type="xs:string" name="orderdate"/>
+           </xs:complexType>
+        </xs:element>
+        <xs:element name="orderdetails" maxOccurs="unbounded">
+          <xs:complexType>
+                <xs:attribute type="xs:string" name="orderno"/>
+                <xs:attribute type="xs:string" name="itemcode"/>
+                <xs:attribute type="xs:integer" name="ordernum"/>
+                <xs:attribute type="xs:integer" name="orderprice"/>
+          </xs:complexType>
+        </xs:element>
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- EmployeeMapper.xml -->
+<!-- All Rights Reserved, Copyright(c) Fujitsu Learning Media Limited -->
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="jsysSpring.sales.mapper.CustomerMapper">
+
+	<!-- 得意先を1件検索する -->
+	<select id="findCustomer" resultType="jsysSpring.sales.entity.Customer">
+		SELECT
+			customercode, customername, customertelno,
+			customerpostalcode, customeraddress, discountrate
+		FROM
+			customer
+		WHERE
+			customercode = #{customerCode} AND deleteflag = false;
+	</select>
+
+</mapper>
